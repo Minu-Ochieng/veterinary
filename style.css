@@ -61,6 +61,7 @@ li {
 .star {
   width: 12px;
   padding: 3px;
+  object-fit: cover;
 }
 .rates {
   display: flex;
@@ -126,6 +127,10 @@ li {
   padding: 16px;
   font-size: 25px;
   color: #c0c0c0;
+  align-items: center;
+}
+.play {
+  width: 30px;
 }
 .team,
 .m-imaging {
