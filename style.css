@@ -4,7 +4,7 @@ body {
 }
 .main-wrapper {
   font-family: "Lobster", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
 }
 .navbar {
   display: flex;
@@ -15,8 +15,14 @@ body {
   gap: 15%;
   justify-content: space-between;
 }
+.subscribe {
+  background-color: #e0ffff;
+}
+.fb {
+  width: 25px;
+}
 .content {
-  background-color: #dff5f8;
+  background-color: #e0ffff;
 }
 li {
   list-style: none;
@@ -29,8 +35,9 @@ li {
   color: #ff4500;
 }
 .caring-img {
-  width: 40%;
+  width: 50%;
   border-radius: 60%;
+  padding: 16px;
 }
 .service-wrapper {
   display: flex;
@@ -43,23 +50,29 @@ li {
   display: flex;
 }
 .vet-doct {
+  background-color: #7fffd4;
   width: 50%;
+  padding: 20px;
 }
 .profile {
   width: 40px;
   border-radius: 45%;
 }
 .star {
-  width: 28px;
+  width: 12px;
+  padding: 3px;
 }
 .rates {
   display: flex;
 }
 .branches-container {
   display: flex;
+  justify-content: space-between;
+  background-color: #e0ffff;
 }
 .together {
   display: flex;
+  justify-content: center;
 }
 .interest-container {
   display: flex;
@@ -69,12 +82,15 @@ li {
 }
 .qualified {
   display: flex;
+  padding: 16px;
 }
 .blog {
   align-items: center;
 }
 .foot {
   display: flex;
+  gap: 7%;
+  font-size: 25px;
 }
 .important {
   display: flex;
@@ -82,7 +98,93 @@ li {
 .bck {
   background-color: #dff5f8;
 }
-
+.family-header {
+  font-size: 40px;
+}
+.family-content {
+  padding: 16px;
+  color: #c0c0c0;
+}
+.btn {
+  background-color: #1e90ff;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  width: 40%;
+  height: 70px;
+  font-size: 23px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.services-header {
+  padding: 16px;
+  font-size: 45px;
+}
+.our {
+  padding: 16px;
+  font-size: 25px;
+  color: #c0c0c0;
+}
+.team,
+.m-imaging {
+  font-size: 19px;
+  padding: -5%;
+}
+.best-branches {
+  margin-top: 3%;
+}
+.say {
+  padding: 4px;
+  font-size: 30px;
+}
+.scores {
+  padding: 16px;
+  font-size: 25px;
+  color: #c0c0c0;
+  align-items: end;
+}
+.continue {
+  margin-left: 70%;
+  color: #1e90ff;
+}
+.she {
+  font-size: 18px;
+}
+.name {
+  font-size: 19px;
+  margin-bottom: 9%;
+}
+.uweuh {
+  align-items: center;
+  font-size: 40px;
+}
+.naah {
+  width: 50%;
+  height: 37%;
+  object-fit: cover;
+}
+.blog {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+}
+.btnn {
+  background-color: #1e90ff;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  width: 19%;
+  height: 70px;
+  font-size: 23px;
+}
+input {
+  border: none;
+  width: 29%;
+  height: 100px;
+  font-size: 18px;
+}
 @media only screen and (max-width: 600px) and (min-width: 300px) {
   .categories {
     display: block;
@@ -123,7 +225,7 @@ li {
     flex-direction: column;
   }
   body {
-   margin: auto;
+    margin: auto;
   }
   .main-wrapper {
     font-size: 21px;
