@@ -1,0 +1,67 @@
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.navbar {
+  display: flex;
+}
+.categories {
+  display: flex;
+  gap: 15%;
+  justify-content: space-between;
+}
+li {
+  list-style: none;
+  display: flex;
+}
+.name {
+  padding: 18px;
+}
+.line {
+  color: #ff4500;
+}
+.caring-img {
+  width: 80%;
+  border-radius: 60%;
+}
+.service-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.first {
+  display: flex;
+}
+.second {
+  display: flex;
+}
+.vet-doct {
+  width: 50%;
+}
+.profile {
+  width: 40px;
+  border-radius: 45%;
+}
+.star {
+  width: 28px;
+}
+.rates {
+  display: flex;
+}
+.branches-container {
+  display: flex;
+}
+.together {
+  display: flex;
+}
+.interest-container {
+  display: flex;
+}
+.pascal {
+  width: 50%;
+}
+.qualified {
+  display: flex;
+}
+.blog {
+  align-items: center;
+}
